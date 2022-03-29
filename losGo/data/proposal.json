@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":"Food-Truck",
+        "description":"Consiste en el alquiler de nuestro Food truck para eventos privados como casamientos o cumpleaños, y para eventos públicos como ferias o festivales. Los waffles los preparamos en el momento con el mejor sabor, acompañados siempre del mejor servicio de cafetería y bebidas refrescantes..",
+        "icon":"fas fa-truck fa-stack-1x fa-inverse",
+        "mainimg":"food-truck-1.jpg",
+        "img2":"food-truck-1.jpg",
+        "img3":"food-truck-1.jpg",
+        "img4":"food-truck-1.jpg",
+        "imgclass":"food-truck-main",
+        "imgclass1":"food-truck-main-1"
+    } ,
+    {
+        "id": 2,
+        "name":"Catering",
+        "description":"Eventos de catering corporativos y sociales a medida del cliente con un trato personalizado para brindar comodidad y confianza.",
+        "icon":"fas fa-biking fa-stack-1x fa-inverse",
+        "mainimg":"catering.webp",
+        "img2":"catering.webp",
+        "img3":"catering.webp",
+        "img4":"catering.webp",
+        "imgclass":"catering-main",
+        "imgclass1":"catering-main-1"
+    },
+    {
+        "id": 3,
+        "name":"Nuestro Local",
+        "description":"Vení a desayunar, almorzar o merendar a la primera Waffleria de Escobar. Nos encontramos en Av. Eugenia Tapia de Cruz 302, Belén de Escobar, Provincia de Buenos Aires. Te esperamos!!",
+        "icon":"fas fa-home fa-stack-1x fa-inverse",
+        "mainimg":"local.jpg",
+        "img2":"local.jpg",
+        "img3":"local.jpg",
+        "img4":"local.jpg",
+        "imgclass":"local-main",
+        "imgclass1":"local-main-1"
+    }
+]
