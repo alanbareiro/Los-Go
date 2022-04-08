@@ -1,6 +1,5 @@
 var express = require('express');
 const router = express.Router();
-
 const controller = require('../controllers/index');
 
 /* GET de Pagina de Inicio */

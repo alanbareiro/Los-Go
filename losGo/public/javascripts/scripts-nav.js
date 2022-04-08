@@ -7,8 +7,9 @@ window.addEventListener('DOMContentLoaded', event => {
     console.log('Estoy en el front');
 
     // funcion para agregar navbar-shrink
+    /*
     var navbarShrink = function () {
-        /*const navbarCollapsible = document.body.querySelector('#mainNav');
+        const navbarCollapsible = document.body.querySelector('#mainNav');
 
         if (!navbarCollapsible) {
             return;
@@ -17,12 +18,13 @@ window.addEventListener('DOMContentLoaded', event => {
             navbarCollapsible.classList.remove('navbar-shrink')
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
-        }*/
+        }
 
     };
 
     // Shrink de navbar 
     navbarShrink()
+    */
 
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
