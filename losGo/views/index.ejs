@@ -1,39 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <%- include('./partials/head') %> 
-
+  <%- include('./partials/head')%> 
 <body id="page-top">
   <!-- Navigation-->
  <%- include('./partials/nav-bar') %> 
   <!-- Masthead-->
   <%- include('./partials/masthead') %>
-
   <!-- About-->
-  <%- include('./partials/about') %>
-  
-  <!-- Galerias-->
-  <%- include('./partials/gallery') %>
- 
-  <!-- Propuestas-->
-  <%- include('./partials/proposals') %>
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Somos LosGo</h2>
+        <h3 class="section-subheading text-muted">Vení a desayunar, almorzar o merendar a la primera Waffleria de
+          Escobar. Nos encontramos en Av. Eugenia Tapia de Cruz 302, Belén de Escobar, Provincia de Buenos Aires.</h3>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/FOTO6.jpg" alt="..." /></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2019 </h4>
+              <h4 class="subheading">Un poco de Nosotros</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">Somos una waffleria que desde 2019 te ofrecemos los más exquisitos waffles dulces y
+                salados. Sin dejar atrás otras delicias para acompañar tu café.</p>
+            </div>
+          </div>
 
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/FOTO7-1.jpg" alt="..." /></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Actualidad</h4>
+              <h4 class="subheading"> Nos reiventamos</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted"> Hoy en 2022 nadie nos detiene, seguimos produciendo los mejores Waffles de todo
+                escobar.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Galerias-->
+  <section class="page-section bg-light" id="portfolio">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Galeria</h2>
+        <h3 class="section-subheading text-muted">Galeria de fotos de Nuestros mejores Waffles</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mb-3">
+          <!-- Portfolio item 1-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="images/FOTO2.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Waffle Rocklets</div>
+              <div class="portfolio-caption-subheading text-muted">Te animas a probarlo?</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-3">
+          <!-- Portfolio item 2-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="images/portfolio/main02.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Ice Waffle</div>
+              <div class="portfolio-caption-subheading text-muted">No es moda, es una delicia!</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-3 mb-lg-0">
+          <!-- Portfolio item 3-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="images/FOTO4.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Waffle dulce de leche y durazno.</div>
+              <div class="portfolio-caption-subheading text-muted">Rico, sexy y contundente</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-3 mb-lg-0">
+          <!-- Portfolio item 4-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid max-wi" src="images/FOTO5.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Waffle Oreo </div>
+              <div class="portfolio-caption-subheading text-muted">La mejor manera de comer tu galletita preferida</div>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+  </section>
+  <!-- Propuestas-->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Propuestas</h2>
+        <h3 class="section-subheading text-muted">Siempre en movimiento.</h3>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x" style="color:var(--color-strong-letter)"></i>
+            <i class="fas fa-truck fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Food-Truck</h4>
+          <p class="text-muted">Ofrecemos servicio de amplia variedad de waffles dulces, cafetería y más delicias en
+            food
+            truck en eventos privados o festivales, haciendo lo que mejor sabemos hacer.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x" style="color:var(--color-strong-letter)"></i>
+            <i class="fas fa-biking fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Catering</h4>
+          <p class="text-muted">Eventos de catering corporativos y sociales a medida del cliente con un trato
+            personalizado
+            para brindar comodidad y confianza.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x" style="color:var(--color-strong-letter)"></i>
+            <i class="fas fa-home fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Nuestro Local</h4>
+          <p class="text-muted">Vení a desayunar, almorzar o merendar a la primera Waffleria de Escobar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Team-->
   <%- include('./partials/team') %>
-  
   <!-- Footer-->
   <%- include('./partials/footer') %>
-
   <!-- Portfolio Modals-->
+  <!-- Portfolio item 1 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Waffle Rocklets</h2>
+                <p class="item-intro text-muted">Te animas a probarlo?.</p>
+                <img class="img-fluid d-block mx-auto" src="images/FOTO2-1.jpg" alt="..." />
+                <p>Este waffle lo servimos con mucho amor, abundante dulce de leche, crema chantilly, rocklets y salsa de chocolate. 
+                  te animas a probarlo</p>
+               <!--
+                  <ul class="list-inline">
+                  <li>
+                    <strong>Caracteristicas principales:</strong>
+                    Crocante
+                  </li>
+                  <li>
+                    <strong>Acompañado con:</strong>
+                    NesCafe clasico
+                  </li>
+                </ul>
+              -->
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Cerrar Imagen
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 2 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Ice Waffle</h2>
+                <p class="item-intro text-muted">No es una moda, es una delicia!</p>
+                <img class="img-fluid d-block mx-auto" src="images/waffle.jpg" alt="..." />
+                <p>Este Waffle lo servimos con abundante Nutella y bocha de helado de super crema americana!</p>
+               <!-- <ul class="list-inline">
+                  <li>
+                    <strong>Caracteristicas principales:</strong>
+                    Sabor intenso
+                  </li>
+                  <li>
+                    <strong>Acompañado con:</strong>
+                    Cafe con Leche Nescafe
+                  </li>
+                </ul>
+              -->
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Cerrar Imagen
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 3 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Waffle dulce de leche y durazno</h2>
+                <p class="item-intro text-muted">Rico, sexy y contundente</p>
+                <img class="img-fluid d-block mx-auto" src="images/FOTO4.jpg" alt="..." />
+                <p>Este Waffle lo servimos con dulce de leche y duraznos seleccionados. El agregado fresco que tu merienda necesita.</p>
+                <!--
+                <ul class="list-inline">
+                  <li>
+                    <strong>Caracteristicas principales:</strong>
+                    Muy sabroso!
+                  </li>
+                  <li>
+                    <strong>Acompañado con:</strong>
+                    Cappucciono Nescafe
+                  </li>
+                </ul>
+                -->
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Cerrar Imagen
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 4 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Waffle Oreo</h2>
+                <p class="item-intro text-muted">La mejor manera de comer tu galletita preferida</p>
+                <img class="img-fluid d-block mx-auto" src="images/FOTO5.jpg" alt="..." />
+                <p>Este Waffle lo servimos con con dulce de leche, crema, galletitas Oreo y salsa de chocolate</p>
+               <!-- <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Lines
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Branding
+                  </li>
+                </ul>
+              -->
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 5 modal popup-->
+  <!---->
   
-  <%- include('./partials/portfolio') %>
-
+  <!-- Portfolio item 6 modal popup-->
+  <!---->
+  <%- include('./partials/wsap') %>
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->
   <script src="javascripts/scripts.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>

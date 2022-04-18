@@ -20,7 +20,7 @@
             <div class="propsal" id="collapse-proposal">
               <span class="nav-item " ><a href="/propuesta/1" id="propuesta" class="nav-link li">Food-Truck</a></span>
               <span class="nav-item li" ><a href="/propuesta/2" id="propuesta" class="nav-link lis">Catering</a></span>
-              <span class="nav-item li" ><a href="/propuesta/3" id="propuesta" class="nav-link list">Nuestro Local</a></span>
+              <!--<span class="nav-item li" ><a href="/propuesta/3" id="propuesta" class="nav-link list">Nuestro Local</a></span>-->
             </div>
           </div>
   
@@ -77,10 +77,10 @@
     <div class="container">
       <div class="text-center">
         <!--Esto tiene que venir por parametro ya que si se apreta fooftruck trae foodtruck-->
-        <h2 class="section-heading text-uppercase"><%=product.name%></h2>
+        
       </div>
       <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="col-lg-3 col-sm-6 mb-3">
           <!-- Portfolio item 1-->
           <div class="portfolio-item">
             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -89,13 +89,9 @@
               </div>
               <img class="img-fluid <%=product.imgclass1%>" src="/images/propuesta/<%=product.img2%>" alt="..." />
             </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Waffle a la godoy</div>
-              <div class="portfolio-caption-subheading text-muted">Delicatese</div>
-            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="col-lg-3 col-sm-6 mb-3">
           <!-- Portfolio item 2-->
           <div class="portfolio-item">
             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -104,13 +100,9 @@
               </div>
               <img class="img-fluid <%=product.imgclass1%>" src="/images/propuesta/<%=product.img3%>" alt="..." />
             </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Monster Waffle</div>
-              <div class="portfolio-caption-subheading text-muted">Animate!</div>
-            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="col-lg-3 col-sm-6 mb-3">
           <!-- Portfolio item 3-->
           <div class="portfolio-item">
             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -119,126 +111,27 @@
               </div>
               <img class="img-fluid <%=product.imgclass1%>" src="/images/propuesta/<%=product.img4%>" alt="..." />
             </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Ice Waffle</div>
-              <div class="portfolio-caption-subheading text-muted">Un toque refrescante!</div>
-            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          
+        <div class="col-lg-3 col-sm-6 mb-3 mb-lg-0">
+           <!-- Portfolio item 4-->
+           <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid <%=product.imgclass1%>" src="/images/propuesta/<%=product.img5%>" alt="..." />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- Footer-->
   <%- include('./partials/footer') %>
-    <!-- Portfolio Modals-->
-  <!-- Portfolio item 1 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">Waffle a la Godoy</h2>
-                <p class="item-intro text-muted">Una de las delicatesen de la casa.</p>
-                <img class="img-fluid d-block mx-auto" src="images/waffle2.jpg" alt="..." />
-                <p>Este producto destaca por sobre todos, ya que es uno de los mas solicitados en nuestro elocal. Viene acompañado con frutillas cuidadosamente seleccionadas.</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>Caracteristicas principales:</strong>
-                    Crocante
-                  </li>
-                  <li>
-                    <strong>Acompañado con:</strong>
-                    NesCafe clasico
-                  </li>
-                </ul>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <i class="fas fa-times me-1"></i>
-                  Cerrar Imagen
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio item 2 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">Monster Waffle</h2>
-                <p class="item-intro text-muted">Solo tenes que animarte!.</p>
-                <img class="img-fluid d-block mx-auto" src="images/waffle.jpg" alt="..." />
-                <p>Este producto destaca por sobre todos, ya que es uno de los mas solicitados en nuestro elocal. Viene acompañado con frutillas cuidadosamente seleccionadas.</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>Caracteristicas principales:</strong>
-                    Sabor intenso
-                  </li>
-                  <li>
-                    <strong>Acompañado con:</strong>
-                   Cafe con Leche Nescafe
-                  </li>
-                </ul>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <i class="fas fa-times me-1"></i>
-                  Cerrar Imagen
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio item 3 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">Ice Waffle</h2>
-                <p class="item-intro text-muted">Senti el toque refresacante de la bocha de helado.</p>
-                <img class="img-fluid d-block mx-auto" src="images/waffle7.jpg" alt="..." />
-                <p>Este producto destaca por sobre todos, ya que es uno de los mas solicitados en nuestro elocal. Viene acompañado con frutillas cuidadosamente seleccionadas.</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>Caracteristicas principales: </strong>
-                    Muy sabroso!
-                  </li>
-                  <li>
-                    <strong>Acompañado con:</strong>
-                    Cappucciono Nescafe
-                  </li>
-                </ul>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <i class="fas fa-times me-1"></i>
-                  Cerrar Imagen
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  <%- include('./partials/wsap') %>
+
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->

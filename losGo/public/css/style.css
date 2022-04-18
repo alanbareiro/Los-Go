@@ -80,12 +80,29 @@
   }
 }
 
+.btn-whatsapp {
+  display:block;
+  width:70px;
+  height:70px;
+  color:#fff;
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:999;
+}
+.wass:hover {
+  width:90px;
+  
+}
 .food-truck-main{
-  width: 450px;
+  width: 60%;
 }
 
 .food-truck-main-1{
-  width: 370px;
+  /*width: 370px;*/
   border-radius: 15px;
 }
 /*
@@ -11521,7 +11538,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../images/waffle7-1.jpg");
+  background-image: url("../images/FOTO1.jpg");
   opacity: 1;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11834,6 +11851,9 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
+  background-image: url("../assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section#contact .section-heading {
   color: #fff;
